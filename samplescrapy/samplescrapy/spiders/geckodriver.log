@@ -1,0 +1,63 @@
+1596945886016	geckodriver	INFO	Listening on 127.0.0.1:60697
+1596945886516	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebuobiE"
+Exiting due to channel error.
+1596946187629	geckodriver	INFO	Listening on 127.0.0.1:59105
+1596946188610	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQPq0i7"
+1596946502525	geckodriver	INFO	Listening on 127.0.0.1:45549
+1596946502570	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUeJlek"
+Exiting due to channel error.
+Exiting due to channel error.
+1596946656654	geckodriver	INFO	Listening on 127.0.0.1:53125
+1596946656707	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile029H12"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 636))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1596947696209	geckodriver	INFO	Listening on 127.0.0.1:49049
+1596947697228	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilec20O8i"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596947717279	Marionette	INFO	Listening on port 45133
+1596947717292	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+1596947814222	geckodriver	INFO	Listening on 127.0.0.1:39673
+1596947814234	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGjo2Bp"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596947842120	Marionette	INFO	Listening on port 36157
+1596947842614	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xB000D,name=PBackgroundIDBDatabase::Msg_Invalidate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xB000E,name=PBackgroundIDBDatabase::Msg_CloseAfterInvalidationComplete) Channel error: cannot send/recv
+
+1596947918897	Marionette	INFO	Stopped listening on port 36157
+1596947925694	Marionette	INFO	Stopped listening on port 45133
+1596948217723	geckodriver	INFO	Listening on 127.0.0.1:46785
+1596948218815	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3HmywS"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596948257958	Marionette	INFO	Listening on port 33479
+1596948258356	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596948656449	geckodriver	INFO	Listening on 127.0.0.1:35931
+1596948657487	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRZzi3y"
+Exiting due to channel error.
+Exiting due to channel error.
+1596948770027	geckodriver	INFO	Listening on 127.0.0.1:52649
+1596948771116	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesfk02S"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596948807679	Marionette	INFO	Listening on port 39587
+1596948808969	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596948912335	Marionette	INFO	Stopped listening on port 39587
+1596948951689	geckodriver	INFO	Listening on 127.0.0.1:42087
+1596948952738	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZ5Tl5J"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596949006549	Marionette	INFO	Listening on port 35443
+1596949006640	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596949166063	Marionette	INFO	Stopped listening on port 35443
+1596949168521	Marionette	INFO	Stopped listening on port 33479
+1596949328312	geckodriver	INFO	Listening on 127.0.0.1:37665
+1596949330002	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNzsRUi"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596949373527	Marionette	INFO	Listening on port 43697
+1596949389198	Marionette	WARN	TLS certificate errors will be ignored for this session

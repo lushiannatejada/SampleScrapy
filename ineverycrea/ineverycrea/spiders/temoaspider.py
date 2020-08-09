@@ -4,21 +4,19 @@ from ineverycrea.product import TextItem
 from scrapy.loader import ItemLoader
 
 class TemoaSpider(scrapy.Spider):
-    name = 'temoa'
+    name = 'temoaself'
 
 #    allowed_domains = ['temoa.tec.mx']
-    start_urls = ['http://temoa.tec.mx/search/apachesolr_search/?filters=tid%3A31175%20tid%3A10']
-
+    start_urls = ['http://temoa.tec.mx/search/apachesolr_search/?filters=tid%3A30724%20tid%3A11']
     def parse(self, response):
         for temoa in response.xpath('//div[@class="search-snippet"]'):
             l = ItemLoader(item=TextItem(), selector=temoa)
-#            l.add_xpath('title', './/div[@class="node clear-block node-type-link"]/h1/a/text()')
             l.add_xpath('link', './/div[@class="node clear-block node-type-link"]/h1/a/@href')
-#            l.add_xpath('text', './/div[@class = "body expandable-long"]/text()')
-            www = 'http://temoa.tec.mx'
             item = l.load_item()
+            www = 'http://temoa.tec.mx'
             url = item['link'][0]
-            yield scrapy.Request(www+url, callback=self.parse_mongo, meta={'item': item})
+#            print(url)
+            yield scrapy.Request(www + url, callback=self.parse_mongo, meta={'item': item})
 
         next_page = response.xpath('//li[@class="pager-next"]/a/@href').extract_first()
         if next_page is not None:
@@ -35,8 +33,8 @@ class TemoaSpider(scrapy.Spider):
                                      '//div[@class="field-item  odd"]/a/text()')
             new.add_xpath('material_type', './/div[@class="field field-type-content-taxonomy field-field-410"]'
                                            '//div[@class="field-item  odd"]/a/text()')
-
             new.add_xpath('author', './/span[@class="submitted"]/a/text()')
-#            print("****************************")
+#            new.replace_value('link', response.url)
+            print(response.url)
             yield new.load_item()
 

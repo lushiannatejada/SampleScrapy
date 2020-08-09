@@ -8,7 +8,7 @@ class CommonstestSpider(scrapy.Spider):
     name = 'ineverycrea'
 
 #    allowed_domains = ['oercommons.org']
-    start_urls = ['https://ineverycrea.net/comunidad/ineverycrea/recursos?pagina=1001']
+    start_urls = ['https://ineverycrea.net/comunidad/ineverycrea/recursos?pagina=1']
 
     def parse(self, response):
         for commons in response.xpath('//article[@class="resource"]'):

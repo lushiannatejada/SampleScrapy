@@ -12,3 +12,4 @@ class ItemCompleted(scrapy.Item):
     subject = Field(input_processor = MapCompose(remove_tags), output_processor = TakeFirst())
     material_type = Field(input_processor = MapCompose(remove_tags), output_processor = TakeFirst())
     author = Field(input_processor = MapCompose(remove_tags), output_processor = TakeFirst())
+    level = Field(input_processor = MapCompose(remove_tags), output_processor = TakeFirst())

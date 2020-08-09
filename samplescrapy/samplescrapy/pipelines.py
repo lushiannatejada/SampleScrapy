@@ -9,7 +9,7 @@ import logging
 
 class MongoPipeline(object):
 
-    collection_name = 'commons_spanish'
+    collection_name = 'cenglish'
 
     def __init__(self, mongo_uri, mongo_db):
         self.mongo_uri = mongo_uri

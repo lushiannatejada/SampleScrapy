@@ -10,7 +10,7 @@ import logging
 
 class MongoPipeline(object):
 
-    collection_name = 'commons_spanish_temoa'
+    collection_name = 'temoa_english'
 
     def __init__(self, mongo_uri, mongo_db):
         self.mongo_uri = mongo_uri
