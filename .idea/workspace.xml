@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7069e81-c509-436a-936b-21c73c8b66ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samplescrapy/samplescrapy/spiders/Procomun.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ineverycrea/ineverycrea/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/ineverycrea/ineverycrea/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ineverycrea/ineverycrea/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/ineverycrea/ineverycrea/product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ineverycrea/ineverycrea/spiders/ineveryspider.py" beforeDir="false" afterPath="$PROJECT_DIR$/ineverycrea/ineverycrea/spiders/ineveryspider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ineverycrea/ineverycrea/spiders/temoaspider.py" beforeDir="false" afterPath="$PROJECT_DIR$/ineverycrea/ineverycrea/spiders/temoaspider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplescrapy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplescrapy/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplescrapy/samplescrapy/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplescrapy/samplescrapy/pipelines.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/samplescrapy/samplescrapy/product2.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplescrapy/samplescrapy/product2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplescrapy/samplescrapy/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplescrapy/samplescrapy/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/samplescrapy/samplescrapy/spiders/commons_spider_o.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplescrapy/samplescrapy/spiders/commons_spider_o.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplescrapy/samplescrapy/spiders/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/samplescrapy/samplescrapy/spiders/geckodriver.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

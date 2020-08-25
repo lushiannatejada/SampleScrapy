@@ -7,7 +7,7 @@ from w3lib.html import remove_tags
 
 class ItemCompleted(scrapy.Item):
     title = Field(input_processor = MapCompose(remove_tags), output_processor = TakeFirst())
-    link = Field()
+    link = Field(input_processor = MapCompose(remove_tags), output_processor = TakeFirst())
     overview = Field(input_processor = MapCompose(remove_tags), output_processor = TakeFirst())
     subject = Field(input_processor = MapCompose(remove_tags), output_processor = TakeFirst())
     material_type = Field(input_processor = MapCompose(remove_tags), output_processor = TakeFirst())
