@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d7069e81-c509-436a-936b-21c73c8b66ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplescrapy/samplescrapy/product2.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplescrapy/samplescrapy/product2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplescrapy/samplescrapy/spiders/commons_spider_o.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplescrapy/samplescrapy/spiders/commons_spider_o.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplescrapy/samplescrapy/spiders/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/samplescrapy/samplescrapy/spiders/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplescrapy/samplescrapy/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplescrapy/samplescrapy/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplescrapy/samplescrapy/spiders/Procomun.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplescrapy/samplescrapy/spiders/Procomun.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

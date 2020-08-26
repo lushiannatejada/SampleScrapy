@@ -5,6 +5,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="samplescrapy.product2" />
+          <option value="samplescrapy.items" />
         </list>
       </option>
     </inspection_tool>
