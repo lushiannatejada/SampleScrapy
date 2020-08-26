@@ -13,13 +13,15 @@ class ProComun(scrapy.Spider):
     url = "http://procomun.educalab.es/search/search.php"
 
     def start_requests(self):
-        frmdata = {"query": '', "page": '0', "type": "LEARNING RESOURCES", "uid": '0', "language[language]": "Spanish",
+        frmdata = {"query": "", "page": '0', "type": "LEARNING_RESOURCES", "uid": '0', "language[language]": "es",
                    "sort": "publicationDate-DESC"}
-
+        print("*************")
         yield FormRequest(self.url, formdata=frmdata, callback=self.parse)
 
     def parse(self, response):
+        print("-------------------")
         enlaces = response.xpath('//h2[@class="title"]/a/@href').extract()
+        print("111111111111111111111")
         for link in enlaces:
             loader = ItemLoader(item=DemoItem(), selector=link)
             loader.add_xpath('link', link)
@@ -42,13 +44,10 @@ class ProComun(scrapy.Spider):
         for commons in response.xpath('//article[@class="clearfix center"]'):
             item = response.meta['item']
             itemnew = ItemLoader(item, selector=commons)
-            #            url = response.url
-            #            print('****************************')
-            #            print(url)
-            itemnew.add_xpath('title', './/div[@class="detail-title"]/h1/text()')
-            itemnew.add_xpath('overview', './/div[@class="detail-ode-description"]/p/text()')
-            itemnew.add_xpath('subject', './/div[@class="detail-ode-knowledge-area clearfix"]/a/text()')
-            itemnew.add_xpath('material_type', './/div[@class="detail-ode-resource-type clearfix"]/a/text()')
-            itemnew.add_xpath('author', './/div[@class="detail-ode-authors"]/div/span/a/text()')
-            #            print("****************************")
+            itemnew.add_xpath('title', 'normalize-space(.//div[@class="detail-title"]/h1/text())')
+            itemnew.add_xpath('overview', 'normalize-space(.//div[@class="detail-ode-description"]/p/text())')
+            itemnew.add_xpath('subject', 'normalize-space(.//div[@class="detail-ode-knowledge-area clearfix"]/a/text())')
+            itemnew.add_xpath('material_type', 'normalize-space(.//div[@class="detail-ode-resource-type clearfix"]/a/text())')
+            itemnew.add_xpath('author', 'normalize-space(.//div[@class="detail-ode-authors"]/div/span/a/text())')
+            itemnew.add_xpath('level', 'normalize-space(.//div[@class="detail-ode-learning-context clearfix"]/a/text())')
             yield itemnew.load_item()
